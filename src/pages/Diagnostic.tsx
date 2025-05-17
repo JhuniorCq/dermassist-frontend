@@ -169,7 +169,7 @@ const Diagnostic = () => {
   }, [predictionData]);
 
   return (
-    <section className="w-full min-h-screen px-9 py-8 bg-gradient-to-b from-[#f3a486] to-white flex flex-col gap-7 items-center">
+    <section className="w-full min-h-screen px-9 py-8 bg-gradient-to-b from-primary to-white flex flex-col gap-7 items-center">
       <button
         className="flex items-center self-start gap-2 text-sm text-white cursor-pointer min-[500px]:text-base"
         onClick={() => navigate(-1)}
